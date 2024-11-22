@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .result {
+            margin-top: 20px;
+        }
+        .result p {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            margin-top: 20px;
+            border: 2px solid #ddd;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    
+    <div class="result">
+        <!-- Display the predicted class -->
+        <p><strong>Predicted Class:</strong> {{ prediction }}</p>
+        
+        <!-- Display the uploaded image -->
+        <img src="{{ url_for('static', filename=image_url) }}" alt="Uploaded Image">
+    </div>
+
+    <a href="{{ url_for('home') }}" style="display:block; margin-top: 20px;">Go back to Home</a>
+
+</body>
+</html>
