@@ -1,0 +1,76 @@
+/* Reset some basic elements for consistent styling across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body styling */
+body {
+    background: #f4f7fc; /* Light blue background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Container for the content */
+div {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Heading styling */
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Link styling */
+a {
+    display: inline-block;
+    background: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+/* Link hover effect */
+a:hover {
+    background: #2980b9;
+    transform: translateY(-4px); /* Lift the button slightly on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Add a subtle fade-in effect for the content */
+div {
+    animation: fadeIn 1s ease-out;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

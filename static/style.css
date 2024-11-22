@@ -1,0 +1,130 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 36px;
+    color: #2C3E50;
+    text-align: center; /* Center text inside the h1 */
+    margin: 2rem 0;
+}
+/* Body Styling */
+body {
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f9fc;
+}
+
+/* Container for the form */
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Label */
+label {
+    display: block;
+    font-size: 16px;
+    color: #2C3E50;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Form Input fields */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+/* Input focus style */
+input:focus, select:focus, textarea:focus {
+    border-color: #3498db;
+    background-color: #ffffff;
+}
+
+/* Form Error Message */
+div {
+    font-size: 14px;
+    color: #e74c3c;
+    margin-top: 5px;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Success/Error message container */
+div.flash-message {
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Success message style */
+.flash-message.success {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Error message style */
+.flash-message.error {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Additional Links Section */
+div a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+div a:hover {
+    text-decoration: underline;
+}
+
+/* For a responsive layout */
+@media screen and (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+
+    input, select, textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
