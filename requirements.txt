@@ -4,3 +4,7 @@ numpy
 tensorflow
 wtforms
 gunicorn
+forms
+numpy
+flask_wtf
+wtforms
