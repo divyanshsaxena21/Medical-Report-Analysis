@@ -1,10 +1,6 @@
-Flask
 Pillow
 numpy
 tensorflow
-wtforms
+flask
+flask-wtf
 gunicorn
-forms
-numpy
-flask_wtf
-wtforms
