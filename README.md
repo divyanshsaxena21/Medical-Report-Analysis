@@ -1,7 +1,5 @@
 # Medical Report Analysis - X-Ray Analysis
 
-![Project Banner](https://github.com/divyanshsaxena21/X-Ray_Analysis) <!-- Replace with an actual image URL if you have a banner -->
-
 ## Overview
 
 Medical Report Analysis is a web-based application designed to analyze and interpret X-ray images. This project integrates deep learning and web technologies to provide accurate predictions based on uploaded X-ray images. The system leverages a pre-trained model for medical image classification, enhancing diagnostic capabilities.
