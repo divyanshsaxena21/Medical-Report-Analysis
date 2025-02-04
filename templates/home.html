@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{%block content %}
+<link rel="stylesheet" href="../static/style.css">
+    <div class="container">
+        <header class="hero">
+            <h1>Medical Report Prediction from X-rays</h1>
+            <p>AI Model for Disease Detection from X-ray Images</p>
+        </header>
+
+        <h2>Welcome to the X-ray Prediction App!</h2>
+        <p>Upload an image to start the prediction process.</p>
+        <div class="button-container">
+            <button><a href="{{ url_for('predict') }}" class="btn">Upload Image</a></button>
+        </div>
+        
+
+        <footer>
+            <p>Created with 💙 by Your Medical AI Team</p>
+        </footer>
+    </div>
+
+{%endblock content %}
