@@ -39,9 +39,9 @@ Medical Report Analysis is a web-based application designed to analyze and inter
    pip install -r requirements.txt
    ```
 3. Train the model:
-   - **Open X_RAY.ipynb in Jupyter Notebook.
-   - **Follow the instructions inside the notebook to load the dataset, preprocess the data, train the convolutional neural network (CNN), and save the trained model.
-   - **Save the trained model as model.h5 and place it inside the model/ directory.
+   - Open X_RAY.ipynb in Jupyter Notebook.
+   - Follow the instructions inside the notebook to load the dataset, preprocess the data, train the convolutional neural network (CNN), and save the trained model.
+   - Save the trained model as model.h5 and place it inside the model/ directory.
    
 3. Run the Flask application:
    ```bash
@@ -52,20 +52,20 @@ Medical Report Analysis is a web-based application designed to analyze and inter
 
 ## Training the Model
 1. Load Dataset:
-   - **Ensure the dataset is available in the required directory.
-   - **Modify the X_RAY.ipynb notebook to point to the correct dataset location.
+   - Ensure the dataset is available in the required directory.
+   - Modify the X_RAY.ipynb notebook to point to the correct dataset location.
 
 2. Preprocess Data:
-   - **Normalize the images and split the dataset into training and testing sets.
-   - **Apply data augmentation techniques if necessary.
+   - Normalize the images and split the dataset into training and testing sets.
+   - Apply data augmentation techniques if necessary.
 
 3. Train the Model:
-   - **Use a convolutional neural network (CNN) for feature extraction.
-   - **Train the model with appropriate hyperparameters (epochs, batch size, learning rate, etc.).
-   - **Evaluate the model’s performance on the test set.
+   - Use a convolutional neural network (CNN) for feature extraction.
+   - Train the model with appropriate hyperparameters (epochs, batch size, learning rate, etc.).
+   - Evaluate the model’s performance on the test set.
 
 4. Save the Model:
-   - **Once training is complete, save the trained model as model.h5 inside the model/ directory.
+   - Once training is complete, save the trained model as model.h5 inside the model/ directory.
 ## Usage
 
 1. Open the web application.
