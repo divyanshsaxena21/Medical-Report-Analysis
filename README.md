@@ -52,8 +52,8 @@ Medical Report Analysis is a web-based application designed to analyze and inter
 
 ## Training the Model
 1. Load Dataset:
-   - Ensure the dataset is available in the required directory.
-   - Modify the X_RAY.ipynb notebook to point to the correct dataset location.
+   ⋅⋅* Ensure the dataset is available in the required directory.
+   ⋅⋅* Modify the X_RAY.ipynb notebook to point to the correct dataset location.
 
 2. Preprocess Data:
    - Normalize the images and split the dataset into training and testing sets.
