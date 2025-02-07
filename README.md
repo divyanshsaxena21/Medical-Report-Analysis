@@ -20,7 +20,6 @@ Medical Report Analysis is a web-based application designed to analyze and inter
 ├── uploads/                 # Directory to store uploaded X-ray images
 ├── app.py                   # Flask backend script
 ├── forms.py                 # Forms for user input handling
-├── model.h5                 # Trained deep learning model
 ├── requirements.txt         # Dependencies
 ├── vercel.json              # Configuration for Vercel deployment
 ├── README.md                # Project documentation
@@ -39,7 +38,11 @@ Medical Report Analysis is a web-based application designed to analyze and inter
    ```bash
    pip install -r requirements.txt
    ```
-
+3. Train the model:
+   - Open X_RAY.ipynb in Jupyter Notebook.
+   - Follow the instructions inside the notebook to load the dataset, preprocess the data, train the convolutional neural network (CNN), and save the trained model.
+   - Save the trained model as model.h5 and place it inside the model/ directory.
+   
 3. Run the Flask application:
    ```bash
    python app.py
